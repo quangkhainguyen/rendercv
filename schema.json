@@ -1068,6 +1068,34 @@
           "title": "Position",
           "type": "string"
         },
+        "technologies": {
+          "anyOf": [
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Technologies or tools used in this role.",
+          "examples": [
+            [
+              "Python",
+              "Django",
+              "AWS"
+            ],
+            [
+              "React",
+              "TypeScript",
+              "GraphQL"
+            ]
+          ],
+          "title": "Technologies"
+        },
         "date": {
           "anyOf": [
             {
