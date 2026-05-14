@@ -54,6 +54,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__2",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -496,6 +502,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__3",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -592,6 +604,12 @@
           "default": "heden",
           "description": "Translation of \"present\" for ongoing dates. The default value is `heden`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -976,6 +994,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__1",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -1265,6 +1289,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__5",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -1361,6 +1391,12 @@
           "default": "gegenwärtig",
           "description": "Translation of \"present\" for ongoing dates. The default value is `gegenwärtig`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -1501,6 +1537,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__7",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -1597,6 +1639,12 @@
           "default": "वर्तमान",
           "description": "Translation of \"present\" for ongoing dates. The default value is `वर्तमान`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -1697,6 +1745,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__9",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -1793,6 +1847,12 @@
           "default": "sekarang",
           "description": "Translation of \"present\" for ongoing dates. The default value is `sekarang`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -1933,6 +1993,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__11",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -2031,6 +2097,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__12",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -2127,6 +2199,12 @@
           "default": "현재",
           "description": "Translation of \"present\" for ongoing dates. The default value is `현재`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -2380,6 +2458,12 @@
           "default": "至今",
           "description": "Translation of \"present\" for ongoing dates. The default value is `至今`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -2655,6 +2739,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__15",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -2751,6 +2841,12 @@
           "default": "nåverande",
           "description": "Translation of \"present\" for ongoing dates. The default value is `nåverande`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -2962,6 +3058,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__17",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -3070,6 +3172,12 @@
           "default": "presente",
           "description": "Translation of \"present\" for ongoing dates. The default value is `presente`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -3421,6 +3529,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__19",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -3662,6 +3776,12 @@
           "title": "Present",
           "type": "string"
         },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
+          "type": "string"
+        },
         "phrases": {
           "$ref": "#/$defs/rendercv__schema__models__locale__english_locale__Phrases__20",
           "description": "Locale-specific phrases used in entry templates as placeholders."
@@ -3758,6 +3878,12 @@
           "default": "halen",
           "description": "Translation of \"present\" for ongoing dates. The default value is `halen`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -3859,6 +3985,12 @@
           "default": "hiện tại",
           "description": "Translation of \"present\" for ongoing dates. The default value is `hiện tại`.",
           "title": "Present",
+          "type": "string"
+        },
+        "technologies_heading": {
+          "default": "Technologie:",
+          "description": "Heading text displayed before the technologies list in experience entry templates. The default value is `Technologie:`.",
+          "title": "Technologies Heading",
           "type": "string"
         },
         "phrases": {
@@ -5687,8 +5819,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY**, POSITION\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY**, POSITION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5706,8 +5838,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY** -- LOCATION\n*POSITION*\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY** -- LOCATION\n*POSITION*\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5725,8 +5857,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**POSITION**, COMPANY -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5744,8 +5876,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**POSITION**, COMPANY -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5763,8 +5895,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY**, POSITION -- LOCATION\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY**, POSITION -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5782,8 +5914,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY** -- LOCATION\n*POSITION*\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY** -- LOCATION\n*POSITION*\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5801,8 +5933,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**POSITION**, COMPANY -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5820,8 +5952,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY**, *POSITION* -- LOCATION\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY**, *POSITION* -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5839,8 +5971,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**POSITION**\n*COMPANY*\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**POSITION**\n*COMPANY*\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
           "title": "Main Column",
           "type": "string"
         },

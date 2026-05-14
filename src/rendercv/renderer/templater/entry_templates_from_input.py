@@ -125,13 +125,24 @@ def render_entry_templates[EntryType: Entry](
         templates, entry.entry_type_in_snake_case
     ).model_dump(exclude_none=True)
 
-    entry_fields: dict[str, str] = {
-        key.upper(): value for key, value in entry.model_dump(exclude_none=True).items()
-    }
+    entry_fields: dict[str, str] = {}
+    for key, value in entry.model_dump(exclude_none=True).items():
+        if isinstance(value, list):
+            entry_fields[key.upper()] = ", ".join(str(item) for item in value)
+        else:
+            entry_fields[key.upper()] = str(value)
 
     # Treat empty-string values as not provided so their surrounding
     # formatting characters (like ** for bold, commas) are cleaned up:
     entry_fields = {k: v for k, v in entry_fields.items() if v != ""}
+
+    if (
+        "TECHNOLOGIES" in entry_fields
+        and any(
+            "TECHNOLOGIES_HEADING" in template for template in entry_templates.values()
+        )
+    ):
+        entry_fields["TECHNOLOGIES_HEADING"] = locale.technologies_heading
 
     # Expand locale phrases into templates by replacing phrase placeholders
     # (e.g., DEGREE_WITH_AREA) with their locale-specific template text

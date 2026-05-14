@@ -10,28 +10,29 @@ locale:
   phrases:
     degree_with_area: DEGREE i AREA
   month_abbreviations:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - Mai
-    - Jun
-    - Jul
-    - Aug
-    - Sep
-    - Okt
-    - Nov
-    - Des
+  - Jan
+  - Feb
+  - Mar
+  - Apr
+  - Mai
+  - Jun
+  - Jul
+  - Aug
+  - Sep
+  - Okt
+  - Nov
+  - Des
   month_names:
-    - Januar
-    - Februar
-    - Mars
-    - April
-    - Mai
-    - Juni
-    - Juli
-    - August
-    - September
-    - Oktober
-    - November
-    - Desember
+  - Januar
+  - Februar
+  - Mars
+  - April
+  - Mai
+  - Juni
+  - Juli
+  - August
+  - September
+  - Oktober
+  - November
+  - Desember
+  technologies_heading: 'Technologie:'

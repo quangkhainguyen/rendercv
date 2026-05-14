@@ -1,0 +1,317 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.7/schema.json
+cv:
+  name: Quang Khai Nguyen
+  headline: Senior Software Engineer | Cloud & Microservices
+  location: Friedhofstrasse 33C, 4912 Aarwangen, Bern
+  email: qngkhai.nguyen@gmail.com
+  photo: photo.jpg
+  phone: "+41779691423"
+  website: https://www.quangkhai.ch
+  sections:
+    experience:
+      - company: Sopra Steria AG & SBB Trassen - Kapazitätssteuerung
+        position: Senior Software Engineer
+        start_date: 2020-05
+        location: Bern, Schweiz
+        summary: |-
+          DevOps-Rolle mit Fokus auf die Delivery Pipeline für das Release Control System (RCS) — deklarative, reproduzierbare Deployments.
+        technologies: 
+          - GitOps
+          - Kubernetes/OpenShift
+          - Helm
+          - ArgoCD
+          - CI/CD
+          - Tekton
+          - Jenkins
+          - Docker
+          - Java
+          - Liquibase
+          - Bash
+          - Spring Boot
+          - Linux
+          - Oracle
+          - Solace
+          - Prometheus
+          - Grafana
+        highlights:
+          - Erstellung und Pflege von Vorlagen und Blueprints für weitere Dev-Teams
+          - Erstellung und Pflege technischer und fachlicher Dokumentation
+          - Ansprechpartner im ART für sämtliche Themen der Delivery-Pipeline
+          - Migration des SPIDERs von der Ausführung auf einer Legacy-Plattform (Bash & Ansible) zu einem Kubernetes-basierten Betrieb mit GitOps-Ansatz
+          - Erweiterung und Pflege von Jenkins-Pipelines
+          - Design und Implementierung skalierbarer Microservices innerhalb des Rail-Control-Systems
+          - Deutliche Steigerung der Systemstabilität durch die Automatisierung von NFR-Tests (Last- und Performance-Tests)
+          - Aufbau und Betrieb einer CI/CD-Pipeline für Microservices
+
+      - company: Sopra Steria AG & SBB Trassen - Kapazitätslenkung
+        position: Software Engineer
+        start_date: 2019-03
+        end_date: 2020-04
+        location: Bern, Schweiz
+        summary: |-
+          Dev-Rolle mit Fokus auf die Entwicklung des DispoOp-Moduls des Rail-Control-Systems (RCS).
+          **Technologien:** Java, Eclipse-RCP, TibRV, JenkinsCI, SonarQube
+        highlights:
+          - Design und Implementierung von Funktionen im DispoOp-Modul des Rail-Control-Systems
+          - Sicherstellung der Codequalität mit SonarQube und Code-Reviews
+          - Erstellung und Pflege von betrieblicher Dokumentation für das DispoOp-Modul
+
+      - company: Sopra Steria AG - SBB MoPro
+        position: Software Engineer
+        start_date: 2017-03
+        end_date: 2019-02
+        location: Bern, Schweiz
+        summary: |-
+          DevOps-Rolle mit Fokus auf die Entwicklung und den Betrieb eines hochverfügbaren, bahnbetriebsrelevanten Rail-Control-Systems (RCS).
+          **Technologien:** Java, Eclipse-RCP, TibRV, JenkinsCI, SonarQube
+        highlights:
+          - Betreuung von Nearshoring-Teams in Cluj-Napoca, Rumänien
+          - Implementierung eines Web-SSP als PoC für die Ablösung von Eclipse-RCP-basierten SSPs
+
+      - company: Deutsche Bank AG
+        position: Softwareentwickler
+        start_date: 2013-01
+        end_date: 2017-02
+        location: Frankfurt am Main, Deutschland
+        summary: |-
+          Planung und Umsetzung einer globalen Überwachungsplattform zur Erfüllung regulatorischer Anforderungen in einem internationalen Bankenumfeld.
+          **Technologien:** Java, Spring, Hibernate, Oracle, Angular JS, Jenkins.
+        highlights:
+          - Durchführung technischer Business-Analysen zur Definition regulatorischer Anforderungen
+          - Core-Entwicklung des "Global Supervisory Systems"
+          - Sicherstellung des reibungslosen Betriebs durch qualifizierten 2nd- und 3rd-Level-Support
+      - company: TTR IT Solutions
+        position: Softwareentwickler
+        start_date: 2011-03
+        end_date: 2012-12
+        location: Frankfurt am Main, Deutschland
+        summary: |-
+          Entwicklung einer modernen Webplattform für Marktforschung, inklusive Frontend-, Backend- und Reporting-Komponenten.
+          **Technologien:** Java, Spring, Hibernate, MS SQL Server.
+        highlights:
+          - Implementierung von Reporting-Modulen und technischer Support für die Plattform
+      - company: TU Dortmund – Fakultät Informatik
+        position: Werkstudent
+        start_date: 2008-10
+        end_date: 2011-01
+        location: Dortmund, Deutschland
+        summary: |-
+          Entwicklung eines Parsers zur Analyse von Abfragen und zur Integration in ein Forschungsprojekt.
+          **Technologien:** Java, ANTLR, JavaCC.
+        highlights:
+          - Entwurf der Interaktionssprache der dynamischen Inferenzkontrolle
+          - Automatisierte Generierung des Parsers für die Interaktionssprache mithilfe von JavaCC
+    education:
+      - institution: Technische Universität Dortmund
+        area: Informatik
+        degree: Bachelor of Science
+        start_date: 2003-10
+        end_date: 2010-05
+        location: Dortmund, Deutschland
+        summary: Schwerpunkt auf Softwareentwicklung und Informationssystemen
+        highlights:
+          - 'Bachelorarbeit: Definition und Parser für die Interaktionssprache der dynamischen Inferenzkontrolle in Informationssystemen, Note 1,0'
+    certificates:
+      - title: "Solace Solutions Consultant"
+        issuer: "Solace Academy"
+        date: "2025-12-22"
+        authors: []
+      - title: "Solace Developer Practitioner"
+        issuer: "Solace Academy"
+        date: "2025-12-22"
+        authors: []
+      - title: "AWS Certified Cloud Practitioner CLF-C02"
+        issuer: "AWS"
+        date: "2025-05-13"
+        url: "https://www.credly.com/badges/01fdd6ad-0a8d-4eac-8336-97e696587d95/public_url"
+        authors: []
+    skills:
+      - label: Sprachen
+        details: Deutsch (verhandlungssicher), Englisch (fließend), Vietnamesisch (Muttersprache)
+      - label: Programmiersprachen
+        details: Python, Java, Go, TypeScript, SQL, HTML, Groovy
+      - label: Frameworks
+        details: Spring Boot, Hibernate, OSGi, JUnit, Mockito, Angular JS
+      - label: Infrastruktur
+        details: OpenShift/Kubernetes, AWS, Linux, Docker, Ansible
+      - label: Tools
+        details: ArgoCD, Helm, Prometheus, Grafana, Git, Jenkins, SonarQube, JIRA, Confluence, IntelliJ IDEA, Visual Studio Code
+design:
+  theme: engineeringclassic
+  page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+    show_top_note: false
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Raleway
+  #     name: Raleway
+  #     headline: Raleway
+  #     connections: Raleway
+  #     section_titles: Raleway
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: left
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_full_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in: []
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: false
+  #   degree_width: 1cm
+  #   summary:
+  #     space_above: 0.12cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0cm
+  #     space_above: 0.12cm
+  #     space_between_items: 0.12cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, DEGREE_WITH_AREA -- LOCATION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column:
+  #     date_and_location_column: DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME** -- **LOCATION**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **POSITION**, COMPANY -- LOCATION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: german
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # phrases:
+  #   degree_with_area: DEGREE in AREA
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mär
+    - Apr
+    - Mai
+    - Juni
+    - Juli
+    - Aug
+    - Sep
+    - Okt
+    - Nov
+    - Dez
+  month_names:
+    - Januar
+    - Februar
+    - März
+    - April
+    - Mai
+    - Juni
+    - Juli
+    - August
+    - September
+    - Oktober
+    - November
+    - Dezember
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
+  pdf_title: NAME - CV

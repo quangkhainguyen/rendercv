@@ -52,6 +52,13 @@ class EnglishLocale(BaseModelWithoutExtraKeys):
             " `present`."
         ),
     )
+    technologies_heading: str = pydantic.Field(
+        default="Technologie:",
+        description=(
+            "Heading text displayed before the technologies list in experience"
+            " entry templates. The default value is `Technologie:`."
+        ),
+    )
     phrases: Phrases = pydantic.Field(
         default_factory=Phrases,
         description="Locale-specific phrases used in entry templates as placeholders.",

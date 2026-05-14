@@ -40,5 +40,5 @@ design:
     normal_entry:
       date_and_location_column: "*LOCATION*\n*DATE*"
     experience_entry:
-      main_column: "**POSITION**\n*COMPANY*\nSUMMARY\nHIGHLIGHTS"
+      main_column: "**POSITION**\n*COMPANY*\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: "*LOCATION*\n*DATE*"

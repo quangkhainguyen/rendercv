@@ -1,3 +1,4 @@
+import re
 from datetime import date as Date
 from unittest.mock import patch
 
@@ -25,6 +26,7 @@ from rendercv.schema.models.cv.entries.normal import NormalEntry
 from rendercv.schema.models.cv.entries.publication import PublicationEntry
 from rendercv.schema.models.design.classic_theme import (
     EducationEntryTemplate,
+    ExperienceEntryTemplate,
     NormalEntryTemplate,
     PublicationEntryTemplate,
     Templates,
@@ -268,6 +270,48 @@ class TestRenderEntryTemplates:
             == "Alice, Bob | [10.1000/xyz123](https://doi.org/10.1000/xyz123) | Feb"
             " 2024"
         )
+
+    def test_substitutes_list_field_values(self):
+        entry = ExperienceEntry(
+            company="Google",
+            position="Engineer",
+            technologies=["Python", "Django", "AWS"],
+            start_date="2020-01",
+            end_date="2021-01",
+        )
+
+        entry = render_entry_templates(
+            entry,
+            templates=Templates(
+                experience_entry=ExperienceEntryTemplate(
+                    main_column="COMPANY | POSITION | TECHNOLOGIES",
+                )
+            ),
+            locale=EnglishLocale(),
+            show_time_span=False,
+            current_date=Date(2024, 1, 1),
+        )
+
+        assert entry.main_column == "Google | Engineer | Python, Django, AWS"  # ty: ignore[unresolved-attribute]
+
+    def test_default_experience_template_renders_technologies(self):
+        entry = ExperienceEntry(
+            company="Google",
+            position="Engineer",
+            technologies=["Python", "Django", "AWS"],
+            start_date="2020-01",
+            end_date="2021-01",
+        )
+
+        entry = render_entry_templates(
+            entry,
+            templates=Templates(),
+            locale=EnglishLocale(),
+            show_time_span=False,
+            current_date=Date(2024, 1, 1),
+        )
+
+        assert "Technologie: Python, Django, AWS" in entry.main_column  # ty: ignore[unresolved-attribute]
 
     def test_substitutes_locale_phrase_in_education_entry(self):
         entry = EducationEntry(
@@ -627,7 +671,7 @@ class TestRemoveNotProvidedPlaceholders:
         fields = {"PREFIX": "a", "SUFFIX": "b"}
         assume(missing_key not in ("PREFIX", "SUFFIX"))
         result = remove_not_provided_placeholders(templates, fields)
-        assert missing_key not in result["main"]
+        assert re.search(rf"\b{missing_key}\b", result["main"]) is None
 
 
 class TestRenderEntryTemplatesInternalErrors:

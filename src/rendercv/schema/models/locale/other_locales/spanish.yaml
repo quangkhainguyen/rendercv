@@ -10,28 +10,29 @@ locale:
   phrases:
     degree_with_area: DEGREE en AREA
   month_abbreviations:
-    - Ene
-    - Feb
-    - Mar
-    - Abr
-    - May
-    - Jun
-    - Jul
-    - Ago
-    - Sep
-    - Oct
-    - Nov
-    - Dic
+  - Ene
+  - Feb
+  - Mar
+  - Abr
+  - May
+  - Jun
+  - Jul
+  - Ago
+  - Sep
+  - Oct
+  - Nov
+  - Dic
   month_names:
-    - Enero
-    - Febrero
-    - Marzo
-    - Abril
-    - Mayo
-    - Junio
-    - Julio
-    - Agosto
-    - Septiembre
-    - Octubre
-    - Noviembre
-    - Diciembre
+  - Enero
+  - Febrero
+  - Marzo
+  - Abril
+  - Mayo
+  - Junio
+  - Julio
+  - Agosto
+  - Septiembre
+  - Octubre
+  - Noviembre
+  - Diciembre
+  technologies_heading: 'Technologie:'
