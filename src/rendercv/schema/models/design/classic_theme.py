@@ -716,7 +716,7 @@ class NormalEntryTemplate(BaseModelWithoutExtraKeys):
 
 class ExperienceEntryTemplate(BaseModelWithoutExtraKeys):
     main_column: str = pydantic.Field(
-        default="**COMPANY**, POSITION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
+        default="**COMPANY**, POSITION\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
         description=(
             "Template for experience entry main column. Available placeholders:\n-"
             " `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`:"
@@ -724,7 +724,7 @@ class ExperienceEntryTemplate(BaseModelWithoutExtraKeys):
             " Comma-separated list of technologies or tools used in the role\n- `SUMMARY`:"
             " Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`:"
             " Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe"
-            " default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`."
+            " default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`."
         ),
     )
     date_and_location_column: str = pydantic.Field(

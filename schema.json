@@ -5819,8 +5819,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY**, POSITION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY**, POSITION\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5838,8 +5838,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY** -- LOCATION\n*POSITION*\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY** -- LOCATION\n*POSITION*\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5857,8 +5857,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**POSITION**, COMPANY -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5876,8 +5876,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**POSITION**, COMPANY -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5895,8 +5895,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY**, POSITION -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY**, POSITION -- LOCATION\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5914,8 +5914,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY** -- LOCATION\n*POSITION*\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY** -- LOCATION\n*POSITION*\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5933,8 +5933,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**POSITION**, COMPANY -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5952,8 +5952,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**COMPANY**, *POSITION* -- LOCATION\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**COMPANY**, *POSITION* -- LOCATION\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`.",
           "title": "Main Column",
           "type": "string"
         },
@@ -5971,8 +5971,8 @@
       "additionalProperties": false,
       "properties": {
         "main_column": {
-          "default": "**POSITION**\n*COMPANY*\nTECHNOLOGIES_HEADING TECHNOLOGIES\nSUMMARY\nHIGHLIGHTS",
-          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nTECHNOLOGIES_HEADING TECHNOLOGIES\\nSUMMARY\\nHIGHLIGHTS`.",
+          "default": "**POSITION**\n*COMPANY*\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES",
+          "description": "Template for experience entry main column. Available placeholders:\n- `COMPANY`: Company name\n- `POSITION`: Job title/position\n- `TECHNOLOGIES_HEADING`: Heading text displayed before the technologies list\n- `TECHNOLOGIES`: Comma-separated list of technologies or tools used in the role\n- `SUMMARY`: Summary text\n- `HIGHLIGHTS`: Bullet points list\n- `LOCATION`: Location text\n- `DATE`: Formatted date or date range\n\nYou can also add arbitrary keys to entries and use them as UPPERCASE placeholders.\n\nThe default value is `**COMPANY**, POSITION\\nSUMMARY\\nHIGHLIGHTS\\nTECHNOLOGIES_HEADING TECHNOLOGIES`.",
           "title": "Main Column",
           "type": "string"
         },
