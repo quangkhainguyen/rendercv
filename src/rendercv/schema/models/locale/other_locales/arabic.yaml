@@ -8,6 +8,7 @@ locale:
   years: سنوات
   present: الحاضر
   experience: experience
+  education: تعليم
   phrases:
     degree_with_area: "DEGREE في AREA"
   month_abbreviations:

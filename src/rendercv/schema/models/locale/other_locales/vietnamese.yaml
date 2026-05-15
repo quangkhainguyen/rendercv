@@ -8,6 +8,7 @@ locale:
   years: năm
   present: hiện tại
   experience: experience
+  education: giáo dục
   phrases:
     degree_with_area: DEGREE ngành AREA
   month_abbreviations:

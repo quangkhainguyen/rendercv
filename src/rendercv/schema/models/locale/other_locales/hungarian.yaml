@@ -8,6 +8,7 @@ locale:
   years: év
   present: jelenleg
   experience: experience
+  education: oktatás
   phrases:
     degree_with_area: DEGREE AREA szakon
   month_abbreviations:

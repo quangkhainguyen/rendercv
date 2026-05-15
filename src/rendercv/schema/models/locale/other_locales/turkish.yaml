@@ -8,6 +8,7 @@ locale:
   years: yıl
   present: halen
   experience: experience
+  education: eğitim
   phrases:
     degree_with_area: "AREA, DEGREE"
   month_abbreviations:

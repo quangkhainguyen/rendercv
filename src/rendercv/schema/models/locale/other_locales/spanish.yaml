@@ -8,6 +8,7 @@ locale:
   years: años
   present: presente
   experience: experience
+  education: educación
   phrases:
     degree_with_area: DEGREE en AREA
   month_abbreviations:

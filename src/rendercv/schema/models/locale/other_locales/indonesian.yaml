@@ -8,6 +8,7 @@ locale:
   years: tahun
   present: sekarang
   experience: experience
+  education: pendidikan
   phrases:
     degree_with_area: DEGREE di AREA
   month_abbreviations:

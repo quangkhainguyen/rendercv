@@ -8,6 +8,7 @@ locale:
   years: anni
   present: presente
   experience: experience
+  education: istruzione
   phrases:
     degree_with_area: DEGREE in AREA
   month_abbreviations:

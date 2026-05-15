@@ -7,7 +7,8 @@ locale:
   year: Jahr
   years: Jahre
   present: gegenwärtig
-  experience: Erfahrung
+  experience: Erfahrungen
+  education: Ausbildungen
   phrases:
     degree_with_area: DEGREE in AREA
   month_abbreviations:

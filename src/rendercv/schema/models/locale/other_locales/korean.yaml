@@ -8,6 +8,7 @@ locale:
   years: 년
   present: 현재
   experience: experience
+  education: 교육
   phrases:
     degree_with_area: AREA DEGREE
   month_abbreviations:
