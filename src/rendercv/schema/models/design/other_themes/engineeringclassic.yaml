@@ -27,6 +27,8 @@ design:
       space_left: "0cm"
       space_above: 0.12cm
       space_between_items: "0.12cm"
+    technologies:
+      space_above: 0.12cm
   templates:
     education_entry:
       main_column: "**INSTITUTION**, DEGREE_WITH_AREA -- LOCATION\nSUMMARY\nHIGHLIGHTS"
@@ -36,5 +38,8 @@ design:
       main_column: "**NAME** -- **LOCATION**\nSUMMARY\nHIGHLIGHTS"
       date_and_location_column: DATE
     experience_entry:
-      main_column: "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS\nTECHNOLOGIES_HEADING TECHNOLOGIES"
+      main_column: "**POSITION**, COMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS\n
+
+
+TECHNOLOGIES_HEADING TECHNOLOGIES"
       date_and_location_column: DATE

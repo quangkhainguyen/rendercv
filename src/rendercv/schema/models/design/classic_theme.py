@@ -575,6 +575,25 @@ class Highlights(BaseModelWithoutExtraKeys):
     )
 
 
+class Technologies(BaseModelWithoutExtraKeys):
+    space_above: TypstDimension = pydantic.Field(
+        default="0cm",
+        description=(
+            "Space above technologies heading and list. "
+            + length_common_description
+            + " The default value is `0cm`."
+        ),
+    )
+    space_left: TypstDimension = pydantic.Field(
+        default="0cm",
+        description=(
+            "Left margin for technologies text. "
+            + length_common_description
+            + " The default value is `0cm`."
+        ),
+    )
+
+
 class Entries(BaseModelWithoutExtraKeys):
     date_and_location_width: TypstDimension = pydantic.Field(
         default="4.15cm",
@@ -629,6 +648,10 @@ class Entries(BaseModelWithoutExtraKeys):
     highlights: Highlights = pydantic.Field(
         default_factory=Highlights,
         description="Highlights settings.",
+    )
+    technologies: Technologies = pydantic.Field(
+        default_factory=Technologies,
+        description="Technologies settings.",
     )
 
 
