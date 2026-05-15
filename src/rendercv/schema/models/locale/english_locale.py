@@ -52,6 +52,10 @@ class EnglishLocale(BaseModelWithoutExtraKeys):
             " `present`."
         ),
     )
+    experience: str = pydantic.Field(
+        default="experience",
+        description='Translation of "experience". The default value is `experience`.',
+    )
     technologies_heading: str = pydantic.Field(
         default="Technologie:",
         description=(

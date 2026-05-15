@@ -98,11 +98,15 @@ def render_full_template(
         code = f"{header}\n"
 
     for rendercv_section in rendercv_model.cv.rendercv_sections:
+        # Translate section title if it matches a locale field
+        translated_title = getattr(
+            rendercv_model.locale, rendercv_section.title.lower(), rendercv_section.title
+        )
         section_beginning = render_single_template(
             file_type,
             f"SectionBeginning.j2.{extension}",
             rendercv_model,
-            section_title=rendercv_section.title,
+            section_title=translated_title,
             snake_case_section_title=rendercv_section.snake_case_title,
             entry_type=rendercv_section.entry_type,
         )

@@ -7,6 +7,7 @@ locale:
   year: an
   years: ans
   present: présent
+  experience: experience
   phrases:
     degree_with_area: DEGREE en AREA
   month_abbreviations:

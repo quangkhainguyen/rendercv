@@ -7,6 +7,7 @@ locale:
   year: "år"
   years: "år"
   present: "nuværende"
+  experience: experience
   phrases:
     degree_with_area: DEGREE i AREA
   month_abbreviations:
