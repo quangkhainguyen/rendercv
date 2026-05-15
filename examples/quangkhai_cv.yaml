@@ -50,7 +50,12 @@ cv:
         location: Bern, Schweiz
         summary: |-
           Dev-Rolle mit Fokus auf die Entwicklung des DispoOp-Moduls des Rail-Control-Systems (RCS).
-          **Technologien:** Java, Eclipse-RCP, TibRV, JenkinsCI, SonarQube
+        technologies: 
+          - Java
+          - Eclipse-RCP
+          - TibRV
+          - JenkinsCI
+          - SonarQube
         highlights:
           - Design und Implementierung von Funktionen im DispoOp-Modul des Rail-Control-Systems
           - Sicherstellung der Codequalität mit SonarQube und Code-Reviews
@@ -63,7 +68,12 @@ cv:
         location: Bern, Schweiz
         summary: |-
           DevOps-Rolle mit Fokus auf die Entwicklung und den Betrieb eines hochverfügbaren, bahnbetriebsrelevanten Rail-Control-Systems (RCS).
-          **Technologien:** Java, Eclipse-RCP, TibRV, JenkinsCI, SonarQube
+        technologies:
+          - Java
+          - Eclipse-RCP
+          - TibRV
+          - JenkinsCI
+          - SonarQube
         highlights:
           - Betreuung von Nearshoring-Teams in Cluj-Napoca, Rumänien
           - Implementierung eines Web-SSP als PoC für die Ablösung von Eclipse-RCP-basierten SSPs
@@ -75,7 +85,14 @@ cv:
         location: Frankfurt am Main, Deutschland
         summary: |-
           Planung und Umsetzung einer globalen Überwachungsplattform zur Erfüllung regulatorischer Anforderungen in einem internationalen Bankenumfeld.
-          **Technologien:** Java, Spring, Hibernate, Oracle, Angular JS, Jenkins.
+        technologies:
+          - Java
+          - Spring
+          - Hibernate
+          - Oracle
+          - Angular JS
+          - Sencha Ext JS
+          - Jenkins
         highlights:
           - Durchführung technischer Business-Analysen zur Definition regulatorischer Anforderungen
           - Core-Entwicklung des "Global Supervisory Systems"
@@ -87,7 +104,11 @@ cv:
         location: Frankfurt am Main, Deutschland
         summary: |-
           Entwicklung einer modernen Webplattform für Marktforschung, inklusive Frontend-, Backend- und Reporting-Komponenten.
-          **Technologien:** Java, Spring, Hibernate, MS SQL Server.
+        technologies:
+          - Java
+          - Spring
+          - Hibernate
+          - MS SQL Server
         highlights:
           - Implementierung von Reporting-Modulen und technischer Support für die Plattform
       - company: TU Dortmund – Fakultät Informatik
@@ -97,7 +118,10 @@ cv:
         location: Dortmund, Deutschland
         summary: |-
           Entwicklung eines Parsers zur Analyse von Abfragen und zur Integration in ein Forschungsprojekt.
-          **Technologien:** Java, ANTLR, JavaCC.
+        technologies:
+          - Java
+          - ANTLR
+          - JavaCC
         highlights:
           - Entwurf der Interaktionssprache der dynamischen Inferenzkontrolle
           - Automatisierte Generierung des Parsers für die Interaktionssprache mithilfe von JavaCC
