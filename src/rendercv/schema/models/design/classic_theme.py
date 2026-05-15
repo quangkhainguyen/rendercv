@@ -634,11 +634,11 @@ class Entries(BaseModelWithoutExtraKeys):
         ),
     )
     degree_width: TypstDimension = pydantic.Field(
-        default="1cm",
+        default="4cm",
         description=(
             "Width of the degree column. "
             + length_common_description
-            + " The default value is `1cm`."
+            + " The default value is `4cm`."
         ),
     )
     summary: Summary = pydantic.Field(
